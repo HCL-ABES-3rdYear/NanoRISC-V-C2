@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1150 420" width="1150" height="420">
+<defs>
+  <style>
+    .canvas { fill: #0b1120; }
+    .hdr-title { fill: #f8fafc; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 20px; font-weight: 800; text-anchor: middle; }
+    .hdr-subtitle { fill: #94a3b8; font-family: monospace; font-size: 12px; text-anchor: middle; }
+    .phase-card { fill: #1e293b; stroke: #334155; stroke-width: 1.5; rx: 10; }
+    .phase-hdr-1 { fill: #0284c7; }
+    .phase-hdr-2 { fill: #7c3aed; }
+    .phase-hdr-3 { fill: #059669; }
+    .phase-hdr-4 { fill: #d97706; }
+    .phase-title { fill: #ffffff; font-family: sans-serif; font-size: 13px; font-weight: 700; text-anchor: middle; }
+    .phase-num { fill: #e2e8f0; font-family: monospace; font-size: 11px; font-weight: 800; }
+    .item-box { fill: #0f172a; stroke: #475569; stroke-width: 1; rx: 6; }
+    .item-text { fill: #e2e8f0; font-family: sans-serif; font-size: 11px; font-weight: 600; }
+    .item-desc { fill: #94a3b8; font-family: monospace; font-size: 9.5px; }
+    .arrow-line { stroke: #38bdf8; stroke-width: 2.5; fill: none; }
+    .feedback-line { stroke: #f43f5e; stroke-width: 2; stroke-dasharray: 5,4; fill: none; }
+    .badge-pass { fill: #065f46; stroke: #34d399; stroke-width: 1; rx: 4; }
+    .badge-text { fill: #6ee7b7; font-family: monospace; font-size: 9px; font-weight: 700; }
+  </style>
+  <marker id="wf-arr" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1 L 10 5 L 0 9 z" fill="#38bdf8" />
+  </marker>
+  <marker id="fb-arr" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1 L 10 5 L 0 9 z" fill="#f43f5e" />
+  </marker>
+</defs>
+<rect width="1150" height="420" class="canvas" rx="12" />
+<text x="575.0" y="36" class="hdr-title">NanoRISC-V-C2 Project Engineering &amp; Verification Workflow</text>
+<text x="575.0" y="56" class="hdr-subtitle">From ISA Microarchitectural Specification &#8226; Verilog RTL &#8226; Unit Verification &#8226; Top Integration &#8226; Synthesis</text>
+<rect x="35" y="80" width="245" height="285" class="phase-card" style="stroke: #0284c7;" />
+<rect x="35" y="80" width="245" height="42" class="phase-hdr-1" rx="10" />
+<rect x="35" y="110" width="245" height="12" class="phase-hdr-1" />
+<text x="47" y="98" class="phase-num">PHASE 01</text>
+<text x="157.5" y="112" class="phase-title">Architecture &amp; ISA Spec</text>
+<rect x="45" y="135" width="225" height="48" class="item-box" />
+<text x="53" y="153" class="item-text">RV32I ISA Subset Selection</text>
+<text x="53" y="169" class="item-desc">Base integer instructions &amp; formats</text>
+<rect x="45" y="191" width="225" height="48" class="item-box" />
+<text x="53" y="209" class="item-text">2-Stage Pipeline Modeling</text>
+<text x="53" y="225" class="item-desc">Consolidate ID/EX/MEM/WB in Stage 2</text>
+<rect x="45" y="247" width="225" height="48" class="item-box" />
+<text x="53" y="265" class="item-text">Hazard &amp; Flush Strategy</text>
+<text x="53" y="281" class="item-desc">Zero RAW stalls; single-cycle flush</text>
+<rect x="45" y="303" width="225" height="48" class="item-box" />
+<text x="53" y="321" class="item-text">Memory Addressing Model</text>
+<text x="53" y="337" class="item-desc">Byte-aligned RAM/ROM; word fetching</text>
+<line x1="283" y1="222.5" x2="315" y2="222.5" class="arrow-line" marker-end="url(#wf-arr)" />
+<rect x="318" y="80" width="245" height="285" class="phase-card" style="stroke: #7c3aed;" />
+<rect x="318" y="80" width="245" height="42" class="phase-hdr-2" rx="10" />
+<rect x="318" y="110" width="245" height="12" class="phase-hdr-2" />
+<text x="330" y="98" class="phase-num">PHASE 02</text>
+<text x="440.5" y="112" class="phase-title">Verilog RTL Design</text>
+<rect x="328" y="135" width="225" height="48" class="item-box" />
+<text x="336" y="153" class="item-text">Stage 1 Modules</text>
+<text x="336" y="169" class="item-desc">program_counter.v &amp; instruction_memory.v</text>
+<rect x="328" y="191" width="225" height="48" class="item-box" />
+<text x="336" y="209" class="item-text">Stage Boundary Register</text>
+<text x="336" y="225" class="item-desc">pipeline_reg_if_id.v (with Flush-to-NOP)</text>
+<rect x="328" y="247" width="225" height="48" class="item-box" />
+<text x="336" y="265" class="item-text">Stage 2 Core Blocks</text>
+<text x="336" y="281" class="item-desc">register_file.v (x0=0), alu.v, data_memory.v</text>
+<rect x="328" y="303" width="225" height="48" class="item-box" />
+<text x="336" y="321" class="item-text">Top-Level Wrapper</text>
+<text x="336" y="337" class="item-desc">nanoriscv_c2_top.v interconnects all blocks</text>
+<line x1="566" y1="222.5" x2="598" y2="222.5" class="arrow-line" marker-end="url(#wf-arr)" />
+<rect x="601" y="80" width="245" height="285" class="phase-card" style="stroke: #059669;" />
+<rect x="601" y="80" width="245" height="42" class="phase-hdr-3" rx="10" />
+<rect x="601" y="110" width="245" height="12" class="phase-hdr-3" />
+<text x="613" y="98" class="phase-num">PHASE 03</text>
+<text x="723.5" y="112" class="phase-title">Testbench &amp; Verification</text>
+<rect x="611" y="135" width="225" height="48" class="item-box" />
+<text x="619" y="153" class="item-text">Unit Testbenches</text>
+<text x="619" y="169" class="item-desc">8 dedicated self-checking _tb.v files</text>
+<rect x="611" y="191" width="225" height="48" class="item-box" />
+<text x="619" y="209" class="item-text">Full Core Integration</text>
+<text x="619" y="225" class="item-desc">nanoriscv_c2_top_tb.v multi-op sequence</text>
+<rect x="611" y="247" width="225" height="48" class="item-box" />
+<text x="619" y="265" class="item-text">VCD Waveform Capture</text>
+<text x="619" y="281" class="item-desc">$dumpfile &amp; $dumpvars in every testbench</text>
+<rect x="611" y="303" width="225" height="48" class="item-box" />
+<text x="619" y="321" class="item-text">Assertion Self-Checking</text>
+<text x="619" y="337" class="item-desc">Zero mismatch assertion reporting</text>
+<line x1="849" y1="222.5" x2="881" y2="222.5" class="arrow-line" marker-end="url(#wf-arr)" />
+<rect x="884" y="80" width="245" height="285" class="phase-card" style="stroke: #d97706;" />
+<rect x="884" y="80" width="245" height="42" class="phase-hdr-4" rx="10" />
+<rect x="884" y="110" width="245" height="12" class="phase-hdr-4" />
+<text x="896" y="98" class="phase-num">PHASE 04</text>
+<text x="1006.5" y="112" class="phase-title">Simulation &amp; Implementation</text>
+<rect x="894" y="135" width="225" height="48" class="item-box" />
+<text x="902" y="153" class="item-text">Behavioral Simulation</text>
+<text x="902" y="169" class="item-desc">Cycle-accurate verification in Vivado/xsim</text>
+<rect x="894" y="191" width="225" height="48" class="item-box" />
+<text x="902" y="209" class="item-text">Timing Analysis</text>
+<text x="902" y="225" class="item-desc">CPI verification (1.0 linear, 2.0 branch)</text>
+<rect x="894" y="247" width="225" height="48" class="item-box" />
+<text x="902" y="265" class="item-text">RTL Schematic Synthesis</text>
+<text x="902" y="281" class="item-desc">Pure synthesizable vendor-independent HDL</text>
+<rect x="894" y="303" width="225" height="48" class="item-box" />
+<text x="902" y="321" class="item-text">Vector Documentation</text>
+<text x="902" y="337" class="item-desc">16 high-precision SVGs &amp; synopsis report</text>
+<path d="M 1006.5 365 L 1006.5 390 L 440.5 390 L 440.5 370" class="feedback-line" marker-end="url(#fb-arr)" />
+<text x="601" y="385" fill="#f43f5e" font-family="monospace" font-size="10" font-weight="bold" text-anchor="middle">Verification Feedback &amp; RTL Optimization Loop</text>
+<rect x="35" y="382" width="1080" height="28" fill="#111827" stroke="#1f2937" rx="6" />
+<text x="575.0" y="400" fill="#38bdf8" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">&amp;check; Milestone Reached: All 8 Submodules and Top-Level Core Achieved 100% Assertion Passes in Vivado &amp; Icarus Verilog</text>
+</svg>
