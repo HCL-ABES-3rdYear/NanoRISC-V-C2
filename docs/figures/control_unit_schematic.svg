@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 480" width="750" height="480">
+<defs>
+  <style>
+    .bg { fill: #0b1120; }
+    .block-pc { fill: #1e293b; stroke: #38bdf8; stroke-width: 2; rx: 6; }
+    .block-rf { fill: #1e293b; stroke: #818cf8; stroke-width: 2; rx: 6; }
+    .block-alu { fill: #1e293b; stroke: #34d399; stroke-width: 2; rx: 6; }
+    .block-ctrl { fill: #1e293b; stroke: #f472b6; stroke-width: 2; rx: 6; }
+    .block-mem { fill: #1e293b; stroke: #fbbf24; stroke-width: 2; rx: 6; }
+    .block-mux { fill: #1e1e38; stroke: #cbd5e1; stroke-width: 1.5; }
+    .bus-wire { stroke: #38bdf8; stroke-width: 2.5; fill: none; }
+    .ctrl-wire { stroke: #f43f5e; stroke-width: 1.8; stroke-dasharray: 4,3; fill: none; }
+    .clk-wire { stroke: #22c55e; stroke-width: 1.8; fill: none; }
+    .title { fill: #f8fafc; font-family: -apple-system, sans-serif; font-size: 18px; font-weight: bold; }
+    .subtitle { fill: #94a3b8; font-family: monospace; font-size: 12px; }
+    .block-header { fill: #f8fafc; font-family: sans-serif; font-size: 14px; font-weight: bold; text-anchor: middle; }
+    .port-text { fill: #e2e8f0; font-family: monospace; font-size: 11px; }
+    .pin-label { fill: #94a3b8; font-family: monospace; font-size: 10px; }
+    .wire-label { fill: #38bdf8; font-family: monospace; font-size: 10px; font-weight: bold; }
+    .ctrl-label { fill: #f43f5e; font-family: monospace; font-size: 10px; font-weight: bold; }
+    .stage-div { stroke: #e2e8f0; stroke-width: 2; stroke-dasharray: 6,4; }
+    .stage-title { fill: #fbbf24; font-family: sans-serif; font-size: 15px; font-weight: bold; }
+  </style>
+  <marker id="arrow" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1 L 10 5 L 0 9 z" fill="#38bdf8" />
+  </marker>
+  <marker id="ctrl-arrow" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1 L 10 5 L 0 9 z" fill="#f43f5e" />
+  </marker>
+  <marker id="clk-arrow" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1 L 10 5 L 0 9 z" fill="#22c55e" />
+  </marker>
+</defs>
+<rect width="750" height="480" class="bg" rx="10" />
+<text x="25" y="32" class="title">Control Unit &amp; Immediate Generator (control_unit) RTL Schematic</text>
+<text x="25" y="52" class="subtitle">NanoRISC-V-C2 Core - Main Decoder, Immediate Formats (I,S,B,U,J), &amp; Branch Comparator</text>
+<rect x="230" y="80" width="290" height="370" class="block-ctrl" />
+<rect x="230" y="80" width="290" height="32" fill="#db2777" rx="6" />
+<text x="375" y="102" class="block-header">Main Control &amp; Decoder</text>
+<line x1="70" y1="140" x2="230" y2="140" class="bus-wire" marker-end="url(#arrow)" />
+<text x="80" y="130" class="wire-label">inst[31:0] /32</text>
+<line x1="70" y1="240" x2="230" y2="240" class="bus-wire" marker-end="url(#arrow)" />
+<text x="80" y="230" class="wire-label">rs1_data[31:0] (for Branch)</text>
+<line x1="70" y1="280" x2="230" y2="280" class="bus-wire" marker-end="url(#arrow)" />
+<text x="80" y="270" class="wire-label">rs2_data[31:0] (for Branch)</text>
+<rect x="250" y="130" width="250" height="60" fill="#0f172a" stroke="#ec4899" rx="4" />
+<text x="375" y="155" fill="#fbcfe8" font-size="11" font-weight="bold" text-anchor="middle">Opcode &amp; Funct Decoder</text>
+<text x="375" y="172" fill="#94a3b8" font-size="10" text-anchor="middle">R, I, S, B, U, J Type Classifier</text>
+<rect x="250" y="210" width="250" height="70" fill="#0f172a" stroke="#ec4899" rx="4" />
+<text x="375" y="235" fill="#fbcfe8" font-size="11" font-weight="bold" text-anchor="middle">Branch Condition Comparator</text>
+<text x="375" y="255" fill="#94a3b8" font-size="10" text-anchor="middle">BEQ, BNE, BLT, BGE, BLTU, BGEU</text>
+<rect x="250" y="300" width="250" height="70" fill="#0f172a" stroke="#ec4899" rx="4" />
+<text x="375" y="325" fill="#fbcfe8" font-size="11" font-weight="bold" text-anchor="middle">Immediate Generator</text>
+<text x="375" y="345" fill="#94a3b8" font-size="10" text-anchor="middle">Sign-Extends I, S, B, U, J Immediates</text>
+<line x1="520" y1="130" x2="630" y2="130" class="ctrl-wire" marker-end="url(#ctrl-arrow)" />
+<text x="640" y="134" class="ctrl-label">reg_write</text>
+<line x1="520" y1="160" x2="630" y2="160" class="ctrl-wire" marker-end="url(#ctrl-arrow)" />
+<text x="640" y="164" class="ctrl-label">alu_src</text>
+<line x1="520" y1="190" x2="630" y2="190" class="ctrl-wire" marker-end="url(#ctrl-arrow)" />
+<text x="640" y="194" class="ctrl-label">alu_op_pc</text>
+<line x1="520" y1="220" x2="630" y2="220" class="bus-wire" marker-end="url(#arrow)" />
+<text x="640" y="224" class="wire-label">mem_read / mem_write</text>
+<line x1="520" y1="250" x2="630" y2="250" class="bus-wire" marker-end="url(#arrow)" />
+<text x="640" y="254" class="wire-label">mem_to_reg[1:0] /2</text>
+<line x1="520" y1="280" x2="630" y2="280" class="bus-wire" marker-end="url(#arrow)" />
+<text x="640" y="284" class="wire-label">alu_ctrl[3:0] /4</text>
+<line x1="520" y1="320" x2="630" y2="320" class="ctrl-wire" marker-end="url(#ctrl-arrow)" />
+<text x="640" y="324" class="ctrl-label">branch_taken</text>
+<line x1="520" y1="350" x2="630" y2="350" class="bus-wire" marker-end="url(#arrow)" />
+<text x="640" y="354" class="wire-label">jump_jal / jump_jalr</text>
+<line x1="520" y1="390" x2="630" y2="390" class="bus-wire" marker-end="url(#arrow)" />
+<text x="640" y="394" class="wire-label">imm[31:0] /32</text>
+</svg>
