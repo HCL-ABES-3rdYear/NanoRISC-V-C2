@@ -1,0 +1,255 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1305 653" width="1305" height="653">
+<defs>
+  <style>
+    .bg { fill: #0f172a; }
+    .grid { stroke: #1e293b; stroke-width: 1; stroke-dasharray: 3,3; }
+    .axis { stroke: #334155; stroke-width: 1.5; }
+    .title { fill: #38bdf8; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace; font-size: 16px; font-weight: bold; }
+    .subtitle { fill: #94a3b8; font-family: monospace; font-size: 12px; }
+    .sig-label { fill: #e2e8f0; font-family: monospace; font-size: 13px; font-weight: 600; }
+    .tick-label { fill: #64748b; font-family: monospace; font-size: 11px; text-anchor: middle; }
+    .step-label { fill: #38bdf8; font-family: monospace; font-size: 12px; font-weight: bold; text-anchor: middle; }
+    .bus-text { fill: #ffffff; font-family: monospace; font-size: 11px; font-weight: bold; text-anchor: middle; dominant-baseline: middle; }
+    .annot-text { fill: #facc15; font-family: monospace; font-size: 11px; font-weight: bold; text-anchor: middle; dominant-baseline: middle; }
+  </style>
+</defs>
+<rect width="1305" height="653" class="bg" rx="8" />
+<text x="20" y="24" class="title">NanoRISC-V-C2 (Full 2-Stage RV32I Processor) Simulation Waveform</text>
+<text x="20" y="44" class="subtitle">NanoRISC-V-C2 Digital Simulation Waveform - Time Unit: 10ns Clock Cycle</text>
+<line x1="160" y1="74" x2="160" y2="628" class="grid" />
+<text x="202.5" y="66" class="step-label">C0</text>
+<text x="202.5" y="79" class="tick-label">0ns</text>
+<line x1="245" y1="74" x2="245" y2="628" class="grid" />
+<text x="287.5" y="66" class="step-label">C1</text>
+<text x="287.5" y="79" class="tick-label">10ns</text>
+<line x1="330" y1="74" x2="330" y2="628" class="grid" />
+<text x="372.5" y="66" class="step-label">C2</text>
+<text x="372.5" y="79" class="tick-label">20ns</text>
+<line x1="415" y1="74" x2="415" y2="628" class="grid" />
+<text x="457.5" y="66" class="step-label">C3</text>
+<text x="457.5" y="79" class="tick-label">30ns</text>
+<line x1="500" y1="74" x2="500" y2="628" class="grid" />
+<text x="542.5" y="66" class="step-label">C4</text>
+<text x="542.5" y="79" class="tick-label">40ns</text>
+<line x1="585" y1="74" x2="585" y2="628" class="grid" />
+<text x="627.5" y="66" class="step-label">C5</text>
+<text x="627.5" y="79" class="tick-label">50ns</text>
+<line x1="670" y1="74" x2="670" y2="628" class="grid" />
+<text x="712.5" y="66" class="step-label">C6</text>
+<text x="712.5" y="79" class="tick-label">60ns</text>
+<line x1="755" y1="74" x2="755" y2="628" class="grid" />
+<text x="797.5" y="66" class="step-label">C7</text>
+<text x="797.5" y="79" class="tick-label">70ns</text>
+<line x1="840" y1="74" x2="840" y2="628" class="grid" />
+<text x="882.5" y="66" class="step-label">C8</text>
+<text x="882.5" y="79" class="tick-label">80ns</text>
+<line x1="925" y1="74" x2="925" y2="628" class="grid" />
+<text x="967.5" y="66" class="step-label">C9</text>
+<text x="967.5" y="79" class="tick-label">90ns</text>
+<line x1="1010" y1="74" x2="1010" y2="628" class="grid" />
+<text x="1052.5" y="66" class="step-label">C10</text>
+<text x="1052.5" y="79" class="tick-label">100ns</text>
+<line x1="1095" y1="74" x2="1095" y2="628" class="grid" />
+<text x="1137.5" y="66" class="step-label">C11</text>
+<text x="1137.5" y="79" class="tick-label">110ns</text>
+<line x1="1180" y1="74" x2="1180" y2="628" class="grid" />
+<text x="1222.5" y="66" class="step-label">C12</text>
+<text x="1222.5" y="79" class="tick-label">120ns</text>
+<line x1="1265" y1="74" x2="1265" y2="628" class="grid" />
+<text x="18" y="99.0" class="sig-label">clk</text>
+<path d="M 160 106 L 160 84 L 202.5 84 L 202.5 106 L 245 106 M 245 106 L 245 84 L 287.5 84 L 287.5 106 L 330 106 M 330 106 L 330 84 L 372.5 84 L 372.5 106 L 415 106 M 415 106 L 415 84 L 457.5 84 L 457.5 106 L 500 106 M 500 106 L 500 84 L 542.5 84 L 542.5 106 L 585 106 M 585 106 L 585 84 L 627.5 84 L 627.5 106 L 670 106 M 670 106 L 670 84 L 712.5 84 L 712.5 106 L 755 106 M 755 106 L 755 84 L 797.5 84 L 797.5 106 L 840 106 M 840 106 L 840 84 L 882.5 84 L 882.5 106 L 925 106 M 925 106 L 925 84 L 967.5 84 L 967.5 106 L 1010 106 M 1010 106 L 1010 84 L 1052.5 84 L 1052.5 106 L 1095 106 M 1095 106 L 1095 84 L 1137.5 84 L 1137.5 106 L 1180 106 M 1180 106 L 1180 84 L 1222.5 84 L 1222.5 106 L 1265 106" fill="none" stroke="#22c55e" stroke-width="2" />
+<text x="18" y="135.0" class="sig-label">rst</text>
+<path d="M 160 120 L 245 120 L 245 142 L 330 142 L 415 142 L 500 142 L 585 142 L 670 142 L 755 142 L 840 142 L 925 142 L 1010 142 L 1095 142 L 1180 142 L 1265 142" fill="none" stroke="#f43f5e" stroke-width="2" stroke-linejoin="round" />
+<text x="18" y="173.0" class="sig-label">pc_if[31:0]</text>
+<polygon points="165,156 325,156 330,169.0 325,182 165,182 160,169.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="245.0" y="169.0" class="bus-text">0x00</text>
+<polygon points="335,156 410,156 415,169.0 410,182 335,182 330,169.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="372.5" y="169.0" class="bus-text">0x04</text>
+<polygon points="420,156 495,156 500,169.0 495,182 420,182 415,169.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="457.5" y="169.0" class="bus-text">0x08</text>
+<polygon points="505,156 580,156 585,169.0 580,182 505,182 500,169.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="542.5" y="169.0" class="bus-text">0x0C</text>
+<polygon points="590,156 665,156 670,169.0 665,182 590,182 585,169.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="627.5" y="169.0" class="bus-text">0x10</text>
+<polygon points="675,156 750,156 755,169.0 750,182 675,182 670,169.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="712.5" y="169.0" class="bus-text">0x14</text>
+<polygon points="760,156 835,156 840,169.0 835,182 760,182 755,169.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="797.5" y="169.0" class="bus-text">0x18</text>
+<polygon points="845,156 920,156 925,169.0 920,182 845,182 840,169.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="882.5" y="169.0" class="bus-text">0x1C</text>
+<polygon points="930,156 1005,156 1010,169.0 1005,182 930,182 925,169.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="967.5" y="169.0" class="bus-text">0x20</text>
+<polygon points="1015,156 1260,156 1265,169.0 1260,182 1015,182 1010,169.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="1137.5" y="169.0" class="bus-text">0x24</text>
+<text x="18" y="213.0" class="sig-label">inst_if[31:0]</text>
+<polygon points="165,196 325,196 330,209.0 325,222 165,222 160,209.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="245.0" y="209.0" class="bus-text">ADDI x1</text>
+<polygon points="335,196 410,196 415,209.0 410,222 335,222 330,209.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="372.5" y="209.0" class="bus-text">ADDI x2</text>
+<polygon points="420,196 495,196 500,209.0 495,222 420,222 415,209.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="457.5" y="209.0" class="bus-text">ADD x3</text>
+<polygon points="505,196 580,196 585,209.0 580,222 505,222 500,209.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="542.5" y="209.0" class="bus-text">SUB x4</text>
+<polygon points="590,196 665,196 670,209.0 665,222 590,222 585,209.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="627.5" y="209.0" class="bus-text">SW x3</text>
+<polygon points="675,196 750,196 755,209.0 750,222 675,222 670,209.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="712.5" y="209.0" class="bus-text">LW x5</text>
+<polygon points="760,196 835,196 840,209.0 835,222 760,222 755,209.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="797.5" y="209.0" class="bus-text">BEQ x4</text>
+<polygon points="845,196 920,196 925,209.0 920,222 845,222 840,209.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="882.5" y="209.0" class="bus-text">ADDI x6</text>
+<polygon points="930,196 1005,196 1010,209.0 1005,222 930,222 925,209.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="967.5" y="209.0" class="bus-text">ADDI x7</text>
+<polygon points="1015,196 1260,196 1265,209.0 1260,222 1015,222 1010,209.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="1137.5" y="209.0" class="bus-text">JAL x0</text>
+<text x="18" y="253.0" class="sig-label">pc_id[31:0]</text>
+<polygon points="165,236 410,236 415,249.0 410,262 165,262 160,249.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="287.5" y="249.0" class="bus-text">0x00</text>
+<polygon points="420,236 495,236 500,249.0 495,262 420,262 415,249.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="457.5" y="249.0" class="bus-text">0x04</text>
+<polygon points="505,236 580,236 585,249.0 580,262 505,262 500,249.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="542.5" y="249.0" class="bus-text">0x08</text>
+<polygon points="590,236 665,236 670,249.0 665,262 590,262 585,249.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="627.5" y="249.0" class="bus-text">0x0C</text>
+<polygon points="675,236 750,236 755,249.0 750,262 675,262 670,249.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="712.5" y="249.0" class="bus-text">0x10</text>
+<polygon points="760,236 835,236 840,249.0 835,262 760,262 755,249.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="797.5" y="249.0" class="bus-text">0x14</text>
+<polygon points="845,236 920,236 925,249.0 920,262 845,262 840,249.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="882.5" y="249.0" class="bus-text">0x18</text>
+<polygon points="930,236 1005,236 1010,249.0 1005,262 930,262 925,249.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="967.5" y="249.0" class="bus-text">0x00</text>
+<polygon points="1015,236 1090,236 1095,249.0 1090,262 1015,262 1010,249.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="1052.5" y="249.0" class="bus-text">0x20</text>
+<polygon points="1100,236 1260,236 1265,249.0 1260,262 1100,262 1095,249.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="1180.0" y="249.0" class="bus-text">0x24</text>
+<text x="18" y="293.0" class="sig-label">inst_id (Stage 2)</text>
+<polygon points="165,276 240,276 245,289.0 240,302 165,302 160,289.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="202.5" y="289.0" class="annot-text">NOP (Reset)</text>
+<polygon points="250,276 325,276 330,289.0 325,302 250,302 245,289.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="287.5" y="289.0" class="annot-text">NOP</text>
+<polygon points="335,276 410,276 415,289.0 410,302 335,302 330,289.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="372.5" y="289.0" class="annot-text">ADDI x1, 10</text>
+<polygon points="420,276 495,276 500,289.0 495,302 420,302 415,289.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="457.5" y="289.0" class="annot-text">ADDI x2, 20</text>
+<polygon points="505,276 580,276 585,289.0 580,302 505,302 500,289.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="542.5" y="289.0" class="annot-text">ADD x3, x..</text>
+<polygon points="590,276 665,276 670,289.0 665,302 590,302 585,289.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="627.5" y="289.0" class="annot-text">SUB x4, x..</text>
+<polygon points="675,276 750,276 755,289.0 750,302 675,302 670,289.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="712.5" y="289.0" class="annot-text">SW x3, 4(..</text>
+<polygon points="760,276 835,276 840,289.0 835,302 760,302 755,289.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="797.5" y="289.0" class="annot-text">LW x5, 4(..</text>
+<polygon points="845,276 920,276 925,289.0 920,302 845,302 840,289.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="882.5" y="289.0" class="annot-text">BEQ (TAKE..</text>
+<polygon points="930,276 1005,276 1010,289.0 1005,302 930,302 925,289.0" fill="#450a0a" stroke="#ef4444" stroke-width="1.5" />
+<text x="967.5" y="289.0" class="annot-text">BUBBLE (F..</text>
+<polygon points="1015,276 1090,276 1095,289.0 1090,302 1015,302 1010,289.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="1052.5" y="289.0" class="annot-text">ADDI x7, 42</text>
+<polygon points="1100,276 1175,276 1180,289.0 1175,302 1100,302 1095,289.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="1137.5" y="289.0" class="annot-text">JAL x0, 0..</text>
+<polygon points="1185,276 1260,276 1265,289.0 1260,302 1185,302 1180,289.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="1222.5" y="289.0" class="annot-text">HALT</text>
+<text x="18" y="333.0" class="sig-label">rs1_data[31:0]</text>
+<polygon points="165,316 495,316 500,329.0 495,342 165,342 160,329.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="330.0" y="329.0" class="bus-text">0</text>
+<polygon points="505,316 580,316 585,329.0 580,342 505,342 500,329.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="542.5" y="329.0" class="bus-text">10 (x1)</text>
+<polygon points="590,316 665,316 670,329.0 665,342 590,342 585,329.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="627.5" y="329.0" class="bus-text">30 (x3)</text>
+<polygon points="675,316 835,316 840,329.0 835,342 675,342 670,329.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="755.0" y="329.0" class="bus-text">0</text>
+<polygon points="845,316 920,316 925,329.0 920,342 845,342 840,329.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="882.5" y="329.0" class="bus-text">20 (x4)</text>
+<polygon points="930,316 1260,316 1265,329.0 1260,342 930,342 925,329.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="1095.0" y="329.0" class="bus-text">0</text>
+<text x="18" y="373.0" class="sig-label">rs2_data[31:0]</text>
+<polygon points="165,356 495,356 500,369.0 495,382 165,382 160,369.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="330.0" y="369.0" class="bus-text">0</text>
+<polygon points="505,356 580,356 585,369.0 580,382 505,382 500,369.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="542.5" y="369.0" class="bus-text">20 (x2)</text>
+<polygon points="590,356 665,356 670,369.0 665,382 590,382 585,369.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="627.5" y="369.0" class="bus-text">10 (x1)</text>
+<polygon points="675,356 750,356 755,369.0 750,382 675,382 670,369.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="712.5" y="369.0" class="bus-text">30 (x3)</text>
+<polygon points="760,356 835,356 840,369.0 835,382 760,382 755,369.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="797.5" y="369.0" class="bus-text">0</text>
+<polygon points="845,356 920,356 925,369.0 920,382 845,382 840,369.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="882.5" y="369.0" class="bus-text">20 (x2)</text>
+<polygon points="930,356 1260,356 1265,369.0 1260,382 930,382 925,369.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="1095.0" y="369.0" class="bus-text">0</text>
+<text x="18" y="413.0" class="sig-label">alu_result[31:0]</text>
+<polygon points="165,396 325,396 330,409.0 325,422 165,422 160,409.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="245.0" y="409.0" class="bus-text">0</text>
+<polygon points="335,396 410,396 415,409.0 410,422 335,422 330,409.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="372.5" y="409.0" class="bus-text">10</text>
+<polygon points="420,396 495,396 500,409.0 495,422 420,422 415,409.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="457.5" y="409.0" class="bus-text">20</text>
+<polygon points="505,396 580,396 585,409.0 580,422 505,422 500,409.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="542.5" y="409.0" class="bus-text">30</text>
+<polygon points="590,396 665,396 670,409.0 665,422 590,422 585,409.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="627.5" y="409.0" class="bus-text">20</text>
+<polygon points="675,396 835,396 840,409.0 835,422 675,422 670,409.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="755.0" y="409.0" class="bus-text">4 (Addr)</text>
+<polygon points="845,396 920,396 925,409.0 920,422 845,422 840,409.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="882.5" y="409.0" class="bus-text">0 (Equal)</text>
+<polygon points="930,396 1005,396 1010,409.0 1005,422 930,422 925,409.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="967.5" y="409.0" class="bus-text">0</text>
+<polygon points="1015,396 1090,396 1095,409.0 1090,422 1015,422 1010,409.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="1052.5" y="409.0" class="bus-text">42</text>
+<polygon points="1100,396 1260,396 1265,409.0 1260,422 1100,422 1095,409.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="1180.0" y="409.0" class="bus-text">0x24</text>
+<text x="18" y="453.0" class="sig-label">mem_read_data[31:0]</text>
+<polygon points="165,436 750,436 755,449.0 750,462 165,462 160,449.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="457.5" y="449.0" class="bus-text">0</text>
+<polygon points="760,436 835,436 840,449.0 835,462 760,462 755,449.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="797.5" y="449.0" class="bus-text">30 (from ..</text>
+<polygon points="845,436 1260,436 1265,449.0 1260,462 845,462 840,449.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="1052.5" y="449.0" class="bus-text">0</text>
+<text x="18" y="491.0" class="sig-label">pc_src (Branch/Jump)</text>
+<path d="M 160 498 L 245 498 L 330 498 L 415 498 L 500 498 L 585 498 L 670 498 L 755 498 L 840 498 L 840 476 L 925 476 L 925 498 L 1010 498 L 1095 498 L 1095 476 L 1180 476 L 1265 476" fill="none" stroke="#eab308" stroke-width="2" stroke-linejoin="round" />
+<text x="18" y="527.0" class="sig-label">reg_write</text>
+<path d="M 160 534 L 245 534 L 330 534 L 330 512 L 415 512 L 500 512 L 585 512 L 670 512 L 670 534 L 755 534 L 755 512 L 840 512 L 840 534 L 925 534 L 1010 534 L 1010 512 L 1095 512 L 1095 534 L 1180 534 L 1265 534" fill="none" stroke="#eab308" stroke-width="2" stroke-linejoin="round" />
+<text x="18" y="565.0" class="sig-label">debug_wb_reg</text>
+<polygon points="165,548 325,548 330,561.0 325,574 165,574 160,561.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="245.0" y="561.0" class="bus-text">x0</text>
+<polygon points="335,548 410,548 415,561.0 410,574 335,574 330,561.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="372.5" y="561.0" class="bus-text">x1</text>
+<polygon points="420,548 495,548 500,561.0 495,574 420,574 415,561.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="457.5" y="561.0" class="bus-text">x2</text>
+<polygon points="505,548 580,548 585,561.0 580,574 505,574 500,561.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="542.5" y="561.0" class="bus-text">x3</text>
+<polygon points="590,548 665,548 670,561.0 665,574 590,574 585,561.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="627.5" y="561.0" class="bus-text">x4</text>
+<polygon points="675,548 750,548 755,561.0 750,574 675,574 670,561.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="712.5" y="561.0" class="bus-text">x0</text>
+<polygon points="760,548 835,548 840,561.0 835,574 760,574 755,561.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="797.5" y="561.0" class="bus-text">x5</text>
+<polygon points="845,548 1005,548 1010,561.0 1005,574 845,574 840,561.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="925.0" y="561.0" class="bus-text">x0</text>
+<polygon points="1015,548 1090,548 1095,561.0 1090,574 1015,574 1010,561.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="1052.5" y="561.0" class="bus-text">x7</text>
+<polygon points="1100,548 1260,548 1265,561.0 1260,574 1100,574 1095,561.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="1180.0" y="561.0" class="bus-text">x0</text>
+<text x="18" y="605.0" class="sig-label">debug_wb_data[31:0]</text>
+<polygon points="165,588 325,588 330,601.0 325,614 165,614 160,601.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="245.0" y="601.0" class="bus-text">0</text>
+<polygon points="335,588 410,588 415,601.0 410,614 335,614 330,601.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="372.5" y="601.0" class="bus-text">10</text>
+<polygon points="420,588 495,588 500,601.0 495,614 420,614 415,601.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="457.5" y="601.0" class="bus-text">20</text>
+<polygon points="505,588 580,588 585,601.0 580,614 505,614 500,601.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="542.5" y="601.0" class="bus-text">30</text>
+<polygon points="590,588 665,588 670,601.0 665,614 590,614 585,601.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="627.5" y="601.0" class="bus-text">20</text>
+<polygon points="675,588 750,588 755,601.0 750,614 675,614 670,601.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="712.5" y="601.0" class="bus-text">0</text>
+<polygon points="760,588 835,588 840,601.0 835,614 760,614 755,601.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="797.5" y="601.0" class="bus-text">30</text>
+<polygon points="845,588 1005,588 1010,601.0 1005,614 845,614 840,601.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="925.0" y="601.0" class="bus-text">0</text>
+<polygon points="1015,588 1090,588 1095,601.0 1090,614 1015,614 1010,601.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="1052.5" y="601.0" class="bus-text">42</text>
+<polygon points="1100,588 1260,588 1265,601.0 1260,614 1100,614 1095,601.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="1180.0" y="601.0" class="bus-text">0</text>
+</svg>
