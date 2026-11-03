@@ -1,0 +1,36 @@
+# Simulation waveform outputs
+*.vcd
+*.vvp
+*.vpd
+*.fsdb
+*.wdb
+
+# EDA Tool & Simulator build directories
+xsim.dir/
+.Xil/
+xsim.jou
+xsim.log
+xvlog.log
+xvlog.pb
+xelab.log
+xelab.pb
+webtalk*.log
+webtalk*.jou
+
+# ModelSim / QuestaSim
+work/
+transcript
+vsim.wlf
+
+# Python cache & build scratch
+__pycache__/
+*.pyc
+*.pyo
+test.html
+test.pdf
+update_all_waveforms.py
+build_pipeline_waveform_and_clean_all.py
+
+# System & OS files
+.DS_Store
+Thumbs.db
