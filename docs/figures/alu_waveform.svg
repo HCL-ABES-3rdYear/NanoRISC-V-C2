@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1025 345" width="1025" height="345">
+<defs>
+  <style>
+    .bg { fill: #0f172a; }
+    .grid { stroke: #1e293b; stroke-width: 1; stroke-dasharray: 3,3; }
+    .axis { stroke: #334155; stroke-width: 1.5; }
+    .title { fill: #38bdf8; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace; font-size: 16px; font-weight: bold; }
+    .subtitle { fill: #94a3b8; font-family: monospace; font-size: 12px; }
+    .sig-label { fill: #e2e8f0; font-family: monospace; font-size: 13px; font-weight: 600; }
+    .tick-label { fill: #64748b; font-family: monospace; font-size: 11px; text-anchor: middle; }
+    .step-label { fill: #38bdf8; font-family: monospace; font-size: 12px; font-weight: bold; text-anchor: middle; }
+    .bus-text { fill: #ffffff; font-family: monospace; font-size: 11px; font-weight: bold; text-anchor: middle; dominant-baseline: middle; }
+    .annot-text { fill: #facc15; font-family: monospace; font-size: 11px; font-weight: bold; text-anchor: middle; dominant-baseline: middle; }
+  </style>
+</defs>
+<rect width="1025" height="345" class="bg" rx="8" />
+<text x="20" y="24" class="title">Arithmetic Logic Unit (alu) Simulation Waveform</text>
+<text x="20" y="44" class="subtitle">NanoRISC-V-C2 Digital Simulation Waveform - Time Unit: 10ns Clock Cycle</text>
+<line x1="160" y1="74" x2="160" y2="320" class="grid" />
+<text x="197.5" y="66" class="step-label">C0</text>
+<text x="197.5" y="79" class="tick-label">0ns</text>
+<line x1="235" y1="74" x2="235" y2="320" class="grid" />
+<text x="272.5" y="66" class="step-label">C1</text>
+<text x="272.5" y="79" class="tick-label">10ns</text>
+<line x1="310" y1="74" x2="310" y2="320" class="grid" />
+<text x="347.5" y="66" class="step-label">C2</text>
+<text x="347.5" y="79" class="tick-label">20ns</text>
+<line x1="385" y1="74" x2="385" y2="320" class="grid" />
+<text x="422.5" y="66" class="step-label">C3</text>
+<text x="422.5" y="79" class="tick-label">30ns</text>
+<line x1="460" y1="74" x2="460" y2="320" class="grid" />
+<text x="497.5" y="66" class="step-label">C4</text>
+<text x="497.5" y="79" class="tick-label">40ns</text>
+<line x1="535" y1="74" x2="535" y2="320" class="grid" />
+<text x="572.5" y="66" class="step-label">C5</text>
+<text x="572.5" y="79" class="tick-label">50ns</text>
+<line x1="610" y1="74" x2="610" y2="320" class="grid" />
+<text x="647.5" y="66" class="step-label">C6</text>
+<text x="647.5" y="79" class="tick-label">60ns</text>
+<line x1="685" y1="74" x2="685" y2="320" class="grid" />
+<text x="722.5" y="66" class="step-label">C7</text>
+<text x="722.5" y="79" class="tick-label">70ns</text>
+<line x1="760" y1="74" x2="760" y2="320" class="grid" />
+<text x="797.5" y="66" class="step-label">C8</text>
+<text x="797.5" y="79" class="tick-label">80ns</text>
+<line x1="835" y1="74" x2="835" y2="320" class="grid" />
+<text x="872.5" y="66" class="step-label">C9</text>
+<text x="872.5" y="79" class="tick-label">90ns</text>
+<line x1="910" y1="74" x2="910" y2="320" class="grid" />
+<text x="947.5" y="66" class="step-label">C10</text>
+<text x="947.5" y="79" class="tick-label">100ns</text>
+<line x1="985" y1="74" x2="985" y2="320" class="grid" />
+<text x="18" y="101.0" class="sig-label">a[31:0]</text>
+<polygon points="165,84 230,84 235,97.0 230,110 165,110 160,97.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="197.5" y="97.0" class="bus-text">15</text>
+<polygon points="240,84 305,84 310,97.0 305,110 240,110 235,97.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="272.5" y="97.0" class="bus-text">50</text>
+<polygon points="315,84 380,84 385,97.0 380,110 315,110 310,97.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="347.5" y="97.0" class="bus-text">1</text>
+<polygon points="390,84 455,84 460,97.0 455,110 390,110 385,97.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="422.5" y="97.0" class="bus-text">-10</text>
+<polygon points="465,84 530,84 535,97.0 530,110 465,110 460,97.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="497.5" y="97.0" class="bus-text">5</text>
+<polygon points="540,84 605,84 610,97.0 605,110 540,110 535,97.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="572.5" y="97.0" class="bus-text">0xAA</text>
+<polygon points="615,84 755,84 760,97.0 755,110 615,110 610,97.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="685.0" y="97.0" class="bus-text">0x80000000</text>
+<polygon points="765,84 830,84 835,97.0 830,110 765,110 760,97.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="797.5" y="97.0" class="bus-text">0xF0</text>
+<polygon points="840,84 905,84 910,97.0 905,110 840,110 835,97.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="872.5" y="97.0" class="bus-text">0xFF</text>
+<polygon points="915,84 980,84 985,97.0 980,110 915,110 910,97.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="947.5" y="97.0" class="bus-text">0x12345678</text>
+<text x="18" y="141.0" class="sig-label">b[31:0]</text>
+<polygon points="165,124 230,124 235,137.0 230,150 165,150 160,137.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="197.5" y="137.0" class="bus-text">25</text>
+<polygon points="240,124 305,124 310,137.0 305,150 240,150 235,137.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="272.5" y="137.0" class="bus-text">50</text>
+<polygon points="315,124 380,124 385,137.0 380,150 315,150 310,137.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="347.5" y="137.0" class="bus-text">4</text>
+<polygon points="390,124 455,124 460,137.0 455,150 390,150 385,137.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="422.5" y="137.0" class="bus-text">5</text>
+<polygon points="465,124 530,124 535,137.0 530,150 465,150 460,137.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="497.5" y="137.0" class="bus-text">-10</text>
+<polygon points="540,124 605,124 610,137.0 605,150 540,150 535,137.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="572.5" y="137.0" class="bus-text">0x55</text>
+<polygon points="615,124 755,124 760,137.0 755,150 615,150 610,137.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="685.0" y="137.0" class="bus-text">4</text>
+<polygon points="765,124 905,124 910,137.0 905,150 765,150 760,137.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="835.0" y="137.0" class="bus-text">0x0F</text>
+<polygon points="915,124 980,124 985,137.0 980,150 915,150 910,137.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="947.5" y="137.0" class="bus-text">0xCAFEBABE</text>
+<text x="18" y="181.0" class="sig-label">alu_ctrl[3:0]</text>
+<polygon points="165,164 230,164 235,177.0 230,190 165,190 160,177.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="197.5" y="177.0" class="bus-text">0(ADD)</text>
+<polygon points="240,164 305,164 310,177.0 305,190 240,190 235,177.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="272.5" y="177.0" class="bus-text">1(SUB)</text>
+<polygon points="315,164 380,164 385,177.0 380,190 315,190 310,177.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="347.5" y="177.0" class="bus-text">2(SLL)</text>
+<polygon points="390,164 455,164 460,177.0 455,190 390,190 385,177.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="422.5" y="177.0" class="bus-text">3(SLT)</text>
+<polygon points="465,164 530,164 535,177.0 530,190 465,190 460,177.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="497.5" y="177.0" class="bus-text">4(SLTU)</text>
+<polygon points="540,164 605,164 610,177.0 605,190 540,190 535,177.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="572.5" y="177.0" class="bus-text">5(XOR)</text>
+<polygon points="615,164 680,164 685,177.0 680,190 615,190 610,177.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="647.5" y="177.0" class="bus-text">6(SRL)</text>
+<polygon points="690,164 755,164 760,177.0 755,190 690,190 685,177.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="722.5" y="177.0" class="bus-text">7(SRA)</text>
+<polygon points="765,164 830,164 835,177.0 830,190 765,190 760,177.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="797.5" y="177.0" class="bus-text">8(OR)</text>
+<polygon points="840,164 905,164 910,177.0 905,190 840,190 835,177.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="872.5" y="177.0" class="bus-text">9(AND)</text>
+<polygon points="915,164 980,164 985,177.0 980,190 915,190 910,177.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="947.5" y="177.0" class="bus-text">10(PASS_B)</text>
+<text x="18" y="221.0" class="sig-label">result[31:0]</text>
+<polygon points="165,204 230,204 235,217.0 230,230 165,230 160,217.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="197.5" y="217.0" class="bus-text">40</text>
+<polygon points="240,204 305,204 310,217.0 305,230 240,230 235,217.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="272.5" y="217.0" class="bus-text">0</text>
+<polygon points="315,204 380,204 385,217.0 380,230 315,230 310,217.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="347.5" y="217.0" class="bus-text">16</text>
+<polygon points="390,204 530,204 535,217.0 530,230 390,230 385,217.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="460.0" y="217.0" class="bus-text">1</text>
+<polygon points="540,204 605,204 610,217.0 605,230 540,230 535,217.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="572.5" y="217.0" class="bus-text">0xFF</text>
+<polygon points="615,204 680,204 685,217.0 680,230 615,230 610,217.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="647.5" y="217.0" class="bus-text">0x08000000</text>
+<polygon points="690,204 755,204 760,217.0 755,230 690,230 685,217.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="722.5" y="217.0" class="bus-text">0xF8000000</text>
+<polygon points="765,204 830,204 835,217.0 830,230 765,230 760,217.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="797.5" y="217.0" class="bus-text">0xFF</text>
+<polygon points="840,204 905,204 910,217.0 905,230 840,230 835,217.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="872.5" y="217.0" class="bus-text">0x0F</text>
+<polygon points="915,204 980,204 985,217.0 980,230 915,230 910,217.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="947.5" y="217.0" class="bus-text">0xCAFEBABE</text>
+<text x="18" y="259.0" class="sig-label">zero</text>
+<path d="M 160 266 L 235 266 L 235 244 L 310 244 L 310 266 L 385 266 L 460 266 L 535 266 L 610 266 L 685 266 L 760 266 L 835 266 L 910 266 L 985 266" fill="none" stroke="#eab308" stroke-width="2" stroke-linejoin="round" />
+<text x="18" y="297.0" class="sig-label">Operation</text>
+<polygon points="165,280 230,280 235,293.0 230,306 165,306 160,293.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="197.5" y="293.0" class="annot-text">15 + 25 ..</text>
+<polygon points="240,280 305,280 310,293.0 305,306 240,306 235,293.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="272.5" y="293.0" class="annot-text">50 - 50 ..</text>
+<polygon points="315,280 380,280 385,293.0 380,306 315,306 310,293.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="347.5" y="293.0" class="annot-text">1 &lt;&lt; 4 =..</text>
+<polygon points="390,280 455,280 460,293.0 455,306 390,306 385,293.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="422.5" y="293.0" class="annot-text">-10 &lt; 5 ..</text>
+<polygon points="465,280 530,280 535,293.0 530,306 465,306 460,293.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="497.5" y="293.0" class="annot-text">5 &lt; -10 ..</text>
+<polygon points="540,280 605,280 610,293.0 605,306 540,306 535,293.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="572.5" y="293.0" class="annot-text">0xAA ^ 0..</text>
+<polygon points="615,280 680,280 685,293.0 680,306 615,306 610,293.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="647.5" y="293.0" class="annot-text">0x800000..</text>
+<polygon points="690,280 755,280 760,293.0 755,306 690,306 685,293.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="722.5" y="293.0" class="annot-text">0x800000..</text>
+<polygon points="765,280 830,280 835,293.0 830,306 765,306 760,293.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="797.5" y="293.0" class="annot-text">0xF0 | 0..</text>
+<polygon points="840,280 905,280 910,293.0 905,306 840,306 835,293.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="872.5" y="293.0" class="annot-text">0xFF &amp; 0..</text>
+<polygon points="915,280 980,280 985,293.0 980,306 915,306 910,293.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="947.5" y="293.0" class="annot-text">Pass B</text>
+</svg>
