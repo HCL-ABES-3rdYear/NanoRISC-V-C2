@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 984 433" width="984" height="433">
+<defs>
+  <style>
+    .bg { fill: #0f172a; }
+    .grid { stroke: #1e293b; stroke-width: 1; stroke-dasharray: 3,3; }
+    .title { fill: #38bdf8; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace; font-size: 16px; font-weight: bold; }
+    .subtitle { fill: #94a3b8; font-family: monospace; font-size: 12px; }
+    .sig-label { fill: #e2e8f0; font-family: monospace; font-size: 13px; font-weight: 600; }
+    .tick-label { fill: #64748b; font-family: monospace; font-size: 11px; text-anchor: middle; }
+    .step-label { fill: #38bdf8; font-family: monospace; font-size: 12px; font-weight: bold; text-anchor: middle; }
+    .bus-text { fill: #ffffff; font-family: monospace; font-size: 11px; font-weight: bold; text-anchor: middle; dominant-baseline: middle; }
+    .annot-text { fill: #facc15; font-family: monospace; font-size: 11px; font-weight: bold; text-anchor: middle; dominant-baseline: middle; }
+  </style>
+</defs>
+<rect width="984" height="433" class="bg" rx="8" />
+<text x="20" y="24" class="title">NanoRISC-V-C2 Two-Stage Pipeline Timing &amp; Instruction Flow Waveform</text>
+<text x="20" y="44" class="subtitle">Cycle-Accurate Instruction Progression, Zero-Stall RAW Forwarding, &amp; Branch Taken Single-Cycle Flush</text>
+<line x1="170" y1="72" x2="170" y2="408" class="grid" />
+<text x="226.0" y="68" class="step-label">C0</text>
+<text x="226.0" y="80" class="tick-label">0ns</text>
+<line x1="282" y1="72" x2="282" y2="408" class="grid" />
+<text x="338.0" y="68" class="step-label">C1</text>
+<text x="338.0" y="80" class="tick-label">10ns</text>
+<line x1="394" y1="72" x2="394" y2="408" class="grid" />
+<text x="450.0" y="68" class="step-label">C2</text>
+<text x="450.0" y="80" class="tick-label">20ns</text>
+<line x1="506" y1="72" x2="506" y2="408" class="grid" />
+<text x="562.0" y="68" class="step-label">C3</text>
+<text x="562.0" y="80" class="tick-label">30ns</text>
+<line x1="618" y1="72" x2="618" y2="408" class="grid" />
+<text x="674.0" y="68" class="step-label">C4</text>
+<text x="674.0" y="80" class="tick-label">40ns</text>
+<line x1="730" y1="72" x2="730" y2="408" class="grid" />
+<text x="786.0" y="68" class="step-label">C5</text>
+<text x="786.0" y="80" class="tick-label">50ns</text>
+<line x1="842" y1="72" x2="842" y2="408" class="grid" />
+<text x="898.0" y="68" class="step-label">C6</text>
+<text x="898.0" y="80" class="tick-label">60ns</text>
+<line x1="954" y1="72" x2="954" y2="408" class="grid" />
+<text x="18" y="99.0" class="sig-label">clk</text>
+<path d="M 170 106 L 170 84 L 226.0 84 L 226.0 106 L 282 106 M 282 106 L 282 84 L 338.0 84 L 338.0 106 L 394 106 M 394 106 L 394 84 L 450.0 84 L 450.0 106 L 506 106 M 506 106 L 506 84 L 562.0 84 L 562.0 106 L 618 106 M 618 106 L 618 84 L 674.0 84 L 674.0 106 L 730 106 M 730 106 L 730 84 L 786.0 84 L 786.0 106 L 842 106 M 842 106 L 842 84 L 898.0 84 L 898.0 106 L 954 106" fill="none" stroke="#22c55e" stroke-width="2" />
+<text x="18" y="138.0" class="sig-label">pc_if[31:0]</text>
+<polygon points="176,120 276,120 282,134.0 276,148 176,148 170,134.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="226.0" y="138.0" class="bus-text">0x00</text>
+<polygon points="288,120 388,120 394,134.0 388,148 288,148 282,134.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="338.0" y="138.0" class="bus-text">0x04</text>
+<polygon points="400,120 500,120 506,134.0 500,148 400,148 394,134.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="450.0" y="138.0" class="bus-text">0x08</text>
+<polygon points="512,120 612,120 618,134.0 612,148 512,148 506,134.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="562.0" y="138.0" class="bus-text">0x0C</text>
+<polygon points="624,120 724,120 730,134.0 724,148 624,148 618,134.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="674.0" y="138.0" class="bus-text">0x20</text>
+<polygon points="736,120 836,120 842,134.0 836,148 736,148 730,134.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="786.0" y="138.0" class="bus-text">0x24</text>
+<polygon points="848,120 948,120 954,134.0 948,148 848,148 842,134.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="898.0" y="138.0" class="bus-text">0x28</text>
+<text x="18" y="180.0" class="sig-label">Stage 1 (Fetch)</text>
+<polygon points="176,162 276,162 282,176.0 276,190 176,190 170,176.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="226.0" y="180.0" class="annot-text">ADDI x1, 10</text>
+<polygon points="288,162 388,162 394,176.0 388,190 288,190 282,176.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="338.0" y="180.0" class="annot-text">ADDI x2, 20</text>
+<polygon points="400,162 500,162 506,176.0 500,190 400,190 394,176.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="450.0" y="180.0" class="annot-text">BEQ x4, x2, +8</text>
+<polygon points="512,162 612,162 618,176.0 612,190 512,190 506,176.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="562.0" y="180.0" class="annot-text">SW x3, 4(x0)</text>
+<polygon points="624,162 724,162 730,176.0 724,190 624,190 618,176.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="674.0" y="180.0" class="annot-text">ADDI x7, 42</text>
+<polygon points="736,162 836,162 842,176.0 836,190 736,190 730,176.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="786.0" y="180.0" class="annot-text">JAL x0, 0</text>
+<polygon points="848,162 948,162 954,176.0 948,190 848,190 842,176.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="898.0" y="180.0" class="annot-text">HALT (Loop)</text>
+<text x="18" y="222.0" class="sig-label">pc_id[31:0]</text>
+<polygon points="176,204 388,204 394,218.0 388,232 176,232 170,218.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="282.0" y="222.0" class="bus-text">0x00</text>
+<polygon points="400,204 500,204 506,218.0 500,232 400,232 394,218.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="450.0" y="222.0" class="bus-text">0x04</text>
+<polygon points="512,204 612,204 618,218.0 612,232 512,232 506,218.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="562.0" y="222.0" class="bus-text">0x08</text>
+<polygon points="624,204 724,204 730,218.0 724,232 624,232 618,218.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="674.0" y="222.0" class="bus-text">0x00</text>
+<polygon points="736,204 836,204 842,218.0 836,232 736,232 730,218.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="786.0" y="222.0" class="bus-text">0x20</text>
+<polygon points="848,204 948,204 954,218.0 948,232 848,232 842,218.0" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="898.0" y="222.0" class="bus-text">0x24</text>
+<text x="18" y="264.0" class="sig-label">Stage 2 (Exec/WB)</text>
+<polygon points="176,246 276,246 282,260.0 276,274 176,274 170,260.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="226.0" y="264.0" class="annot-text">NOP (Reset)</text>
+<polygon points="288,246 388,246 394,260.0 388,274 288,274 282,260.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="338.0" y="264.0" class="annot-text">ADDI x1 (10)</text>
+<polygon points="400,246 500,246 506,260.0 500,274 400,274 394,260.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="450.0" y="264.0" class="annot-text">ADDI x2 (20)</text>
+<polygon points="512,246 612,246 618,260.0 612,274 512,274 506,260.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="562.0" y="264.0" class="annot-text">BEQ (Taken)</text>
+<polygon points="624,246 724,246 730,260.0 724,274 624,274 618,260.0" fill="#450a0a" stroke="#ef4444" stroke-width="1.5" />
+<text x="674.0" y="264.0" class="annot-text">NOP BUBBLE</text>
+<polygon points="736,246 836,246 842,260.0 836,274 736,274 730,260.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="786.0" y="264.0" class="annot-text">ADDI x7 (42)</text>
+<polygon points="848,246 948,246 954,260.0 948,274 848,274 842,260.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="898.0" y="264.0" class="annot-text">JAL (0x24)</text>
+<text x="18" y="306.0" class="sig-label">Hazard Handling</text>
+<polygon points="176,288 276,288 282,302.0 276,316 176,316 170,302.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="226.0" y="306.0" class="annot-text">Reset Init</text>
+<polygon points="288,288 388,288 394,302.0 388,316 288,316 282,302.0" fill="#064e3b" stroke="#10b981" stroke-width="1.5" />
+<text x="338.0" y="306.0" class="annot-text">Commit x1</text>
+<polygon points="400,288 500,288 506,302.0 500,316 400,316 394,302.0" fill="#064e3b" stroke="#10b981" stroke-width="1.5" />
+<text x="450.0" y="306.0" class="annot-text">Commit x2</text>
+<polygon points="512,288 612,288 618,302.0 612,316 512,316 506,302.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="562.0" y="306.0" class="annot-text">Cond True</text>
+<polygon points="624,288 724,288 730,302.0 724,316 624,316 618,302.0" fill="#450a0a" stroke="#ef4444" stroke-width="1.5" />
+<text x="674.0" y="306.0" class="annot-text">Squash NOP</text>
+<polygon points="736,288 836,288 842,302.0 836,316 736,316 730,302.0" fill="#064e3b" stroke="#10b981" stroke-width="1.5" />
+<text x="786.0" y="306.0" class="annot-text">Commit x7</text>
+<polygon points="848,288 948,288 954,302.0 948,316 848,316 842,302.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="898.0" y="306.0" class="annot-text">Steady Loop</text>
+<text x="18" y="345.0" class="sig-label">pc_src (Flush)</text>
+<path d="M 170 352 L 282 352 L 394 352 L 506 352 L 506 330 L 618 330 L 618 352 L 730 352 L 842 352 L 954 352" fill="none" stroke="#eab308" stroke-width="2" stroke-linejoin="round" />
+<text x="18" y="384.0" class="sig-label">CPI Metric</text>
+<polygon points="176,366 500,366 506,380.0 500,394 176,394 170,380.0" fill="#064e3b" stroke="#10b981" stroke-width="1.5" />
+<text x="338.0" y="384.0" class="annot-text">CPI = 1.0</text>
+<polygon points="512,366 612,366 618,380.0 612,394 512,394 506,380.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="562.0" y="384.0" class="annot-text">CPI = 2.0</text>
+<polygon points="624,366 724,366 730,380.0 724,394 624,394 618,380.0" fill="#450a0a" stroke="#ef4444" stroke-width="1.5" />
+<text x="674.0" y="384.0" class="annot-text">Flush Drain</text>
+<polygon points="736,366 836,366 842,380.0 836,394 736,394 730,380.0" fill="#064e3b" stroke="#10b981" stroke-width="1.5" />
+<text x="786.0" y="384.0" class="annot-text">CPI = 1.0</text>
+<polygon points="848,366 948,366 954,380.0 948,394 848,394 842,380.0" fill="#312e81" stroke="#818cf8" stroke-width="1.5" />
+<text x="898.0" y="384.0" class="annot-text">Halted</text>
+</svg>
